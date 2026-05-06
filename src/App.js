@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = process.env.REACT_APP_API_URL;
+ const API = "https://task-manager-backend-production-3424.up.railway.app";
 console.log("API URL:", API);
 
 function App() {
