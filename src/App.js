@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
- const API = "https://task-manager-backend-production-3424.up.railway.app";
+const API = "https://task-manager-backend-production-3424.up.railway.app";
 console.log("API URL:", API);
 
 function App() {
