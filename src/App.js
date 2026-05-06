@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 
 const API = process.env.REACT_APP_API_URL;
+console.log("API URL:", API);
 
 function App() {
   const [email, setEmail] = useState("");
